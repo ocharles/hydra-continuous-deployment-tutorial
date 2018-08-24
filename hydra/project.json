@@ -2,7 +2,7 @@
     "enabled": 1,
     "hidden": false,
     "description": "My Blog",
-    "nixexprinput": "blog-git",
+    "nixexprinput": "src",
     "nixexprpath": "hydra/jobsets.nix",
     "checkinterval": 5,
     "schedulingshares": 100,
