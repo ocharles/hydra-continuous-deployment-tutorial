@@ -1,0 +1,24 @@
+{
+    "enabled": 1,
+    "hidden": false,
+    "description": "My Blog",
+    "nixexprinput": "blog-git",
+    "nixexprpath": "hydra/jobsets.nix",
+    "checkinterval": 5,
+    "schedulingshares": 100,
+    "enableemail": false,
+    "emailoverride": "",
+    "keepnr": 3,
+    "inputs": {
+        "src": {
+	        "type": "git",
+	        "value": "git://github.com/ocharles/hydra-continuous-deployment-tutorial",
+	        "emailresponsible": false
+	    },
+        "nixpkgs": {
+	        "type": "git",
+	        "value": "git://github.com/NixOS/nixpkgs.git release-18.03",
+	        "emailresponsible": false
+	    }
+    }
+}
