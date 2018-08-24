@@ -35,7 +35,7 @@ let
               { owner = "circuithub";
                 repo = "mono";
                 ref = "master";
-              }
+              };
           };
     };
 
