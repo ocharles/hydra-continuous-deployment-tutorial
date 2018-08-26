@@ -21,7 +21,7 @@ let
       inputs =
         { src =
             { type = "git";
-              value = "git@github.com:${ github.owner }/${ github.repo } ${ github.ref }";
+              value = "git://github.com/${ github.owner }/${ github.repo } ${ github.ref }";
               emailresponsible = false;
             };
         };
